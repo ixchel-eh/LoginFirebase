@@ -1,0 +1,29 @@
+
+
+<app-navbar></app-navbar>
+
+<div class="container">
+<div class="card text-center">
+  <div class="card-header">
+    <B>LOGIN</B>
+    </div>
+    <div clases="card-body p-4">
+      <label style="float: left;">Email</label>
+      <input class ="form-control m-2"type="email" placeholder="Ingrese un email" [(ngModel)]="usuario.email" >
+
+        <label style="float: left;">Password</label>
+      <input class ="form-control m-2" type="password" placeholder="Ingrese un password" [(ngModel)]="usuario.password">
+
+      <button class ="btn btn-primary btn-block m-2 "(click)="ingresar()">INGRESAR</button>
+      <button class ="btn btn-info btn-block m-2 "(click)="ingresarConGoogle()">INGRESAR con google</button>
+      <div>
+      <label >AUN NO TIENES CUENTA? <a href="#">REGISTRARSE</a></label>
+      </div>
+      <div>
+        <!--<button class="btn btn-info btn-block m2" (click)="obtenerUsuarioLogeado()">Usuario Logeado</button>
+        --><button class="btn btn-info btn-block m2"(click)="logout()">Logout </button>
+      </div>
+  </div>
+
+</div>
+</div>

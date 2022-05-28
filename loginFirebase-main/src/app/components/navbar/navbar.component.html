@@ -1,0 +1,13 @@
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="https://cdn-icons-png.flaticon.com/512/6438/6438086.png"
+     width="80"HEIGHT="60" class="d-line-block align-top" alt="">
+     Ixchel EH
+  </a>
+
+  <a class="navbar-brand" href="#"*ngIf="UserLogged|async as user">
+    <img style="border-radius: 100%;" *ngIf="user.photoURL" src="{{user.photoURL}}"
+    width="60"HEIGHT="40" class="d-line-block align-top" alt="">
+  {{user.email}}
+  </a>
+</nav>

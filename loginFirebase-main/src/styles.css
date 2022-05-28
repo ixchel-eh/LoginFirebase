@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background-image: url("https://th.bing.com/th/id/R.6938d3020bf538e0ff228eb962b30631?rik=jY1KQgxjR0un2g&riu=http%3a%2f%2fwww.mactualidad.com%2fwp-content%2fuploads%2f2014%2f07%2fsmooth-ice.jpg&ehk=1BZuI%2b0KuHPVA3WWdkHjKyeo69FPBfnP9fQ%2fPFNxz4o%3d&risl=&pid=ImgRaw&r=0");
+  background-repeat: no-repeat;
+  background-position:center ;
+  background-size: cover;
+  height: 100vh;
+
+}
